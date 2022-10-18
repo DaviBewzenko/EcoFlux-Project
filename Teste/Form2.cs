@@ -32,6 +32,7 @@ namespace Teste
             {
                 Con = new MySqlConnection(data_source);
                 Con.Open();
+                MessageBox.Show("Func");
             }
             catch (Exception ex)
             {
@@ -92,5 +93,9 @@ namespace Teste
 
         }
 
+        private void Form2_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
